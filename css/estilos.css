@@ -1,0 +1,163 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+body{
+	background: #f2f2f2;
+
+}
+
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main, .piePagina{
+	background: #ccc;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.cabeceraPrincipal{
+	background-color: #FFDB5C;
+	box-shadow: rgb(0, 0, 0) 3px 2px 2px;
+}
+
+.cabeceraPrincipal h1{
+	color: #4c99d4;
+	padding: 10px 40px;
+	text-shadow: rgb(0, 0, 0) 3px 2px 2px;
+}
+.menuPrincipal{
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	height: 30px;
+}
+.menuPrincipal a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menuPrincipal a:hover{
+	background-color: #d4a704;
+	color: #f2f2f2;
+	transition: 1s;
+}
+
+.sliderPrincipal img{
+	width: 100%;
+}
+
+.h2Home{
+	text-align: center;
+	padding: 2em;
+	color: #d4a704;
+}
+.menu{
+	text-align: center;
+}
+.menuPlato{
+
+	width: 32%;
+	background: #9b3d3d;
+	border: 1px solid #BBB6B6;
+	box-sizing: border-box;
+	height: 200px;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menuPlato img{
+	width: 100%;
+}
+.menuPlato h3{
+	color: #8D4E00;
+	text-align: center;
+	padding: 1em 0;
+}
+.menuPlato p{
+	padding: 0.2em 1em;
+	font-size: 13px;
+	color: #fff;
+}
+.menuPlato button{
+	background-color: #07738a;
+	color: #d4a704;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+
+
+.piePagina {
+	background-color: #83897d;
+	color: rgb(0, 0, 0);
+}
+
+.piePagina h6{
+	text-align: center;
+	padding: 2em 0;
+}
+
+.cheff{
+	
+	position: relative;
+}
+
+.cheffPersona{
+	width: 48%;
+	background: #ccc;
+	border: 1px solid #BBB6B6;
+	box-sizing: border-box;
+	height: 200px;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cheffPersona img{
+	
+    border-radius:150px;
+	display: inline-block;
+}
+.cheffPersona h3{
+	color: #2a2a2a;
+	position: absolute;
+	display: inline-block;
+	padding: 1em 0;
+}
+.cheffPersona p{
+	padding: 0.2em 1em;
+	font-size: 13px;
+	position: relative;
+	text-align: right;
+	color: #fff;
+}
+.cheffPersona button{
+	background-color: #07738a;
+	color: #d4a704;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+	body {
+	  background-color: blue;
+	}
+  }
+  @media only screen and (max-width: 600px) {
+	.menuPlato{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+  }
